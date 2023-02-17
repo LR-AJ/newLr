@@ -173,6 +173,8 @@ h6,
     }
 }
 
+
+
 @media (min-width: 992px) {
     .navbar-dark {
         position: absolute;
@@ -235,6 +237,11 @@ h6,
         font-size: 30px;
         font-weight: 600 !important;
     }
+}
+.vendorimg img{
+    width: 8rem;
+    height: 6rem;   
+    text-align: center; 
 }
 
 .carousel-control-prev,
@@ -327,12 +334,10 @@ h6,
     justify-content: center;
     background: var(--primary);
     border-radius: 2px;
-    transform: rotate(-45deg);
+   
 }
 
-.service-item .service-icon i {
-    transform: rotate(45deg);
-}
+
 
 .service-item a.btn {
     position: absolute;
@@ -462,13 +467,18 @@ h6,
         margin-top: -75px;
         z-index: 1;
     }
+    .vendorimg img{
+        width: 150px;
+        height: 150px;
+        text-align: center;
+    }
 }
 
 .back-to-top {
     position: fixed;
     display: none;
-    right: 45px;
-    bottom: 45px;
+    right: 60px;
+    bottom: 120px;
     z-index: 99;
 }
 
