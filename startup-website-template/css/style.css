@@ -6,7 +6,13 @@
     --dark: #091E3E;
 }
 
-
+/* Our Services Box Border */
+ .box_border {
+    border: 6px outset #bcd3df;
+ }
+ .box_border_one {
+    border: 6px outset #06A3DA;
+ }
 /*** Spinner ***/
 .spinner {
     width: 40px;
