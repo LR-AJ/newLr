@@ -216,16 +216,21 @@
     </div>
     <!-- Full Screen Search End -->
 
-  <!-- Form Start -->
-  <div class="container2 container_two wow fadeInLeft" style="background-color: white;">
-    <div class="rib-txt">
-        <h3>Apply Online</h3>
+
+<!-- Form Start -->
+<div class="form_container">
+    <span class="rib-txt">Apply Online</span>
+    <div>
+<form class="flex-container container_two wow fadeInLeft" style="background-color: white; "
+     name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
+    
+    <div>
+        <input class="input_box_styl" type="text" name="fname" id="name" 
+            placeholder="Your Name" required>
     </div>
-<div class="form_styl"> 
-    <form class="formi" name="myForm" action="/action_page.php"
-    onsubmit="return validateForm()" method="post">
-    <input class="input_box_styl" type="text" name="fname" id="name" placeholder="Your Name" required>
-    <input class="input_box_styl" type="email" name="email" id="email" placeholder="Email"
+
+    <div>
+        <input class="input_box_styl" type="email" name="email" id="email" placeholder="Email"
         pattern="^([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|
         \x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22)
         (\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|
@@ -234,13 +239,25 @@
         [\x00-\x7f])*\x5d)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\
         x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d))*$"
         required >
-    <input class="input_box_styl" type="tel" name="number" id="number" placeholder="Number"
-    minlength="8" maxlength="12">
-    <button class=" btn btn-primary" type="submit" value="Submit"> Proceed</button>
+    </div>
+
+    <div>
+        <input class="input_box_styl" type="tel" name="number" id="number" placeholder="Number"
+        minlength="8" maxlength="12">
+    </div> 
+    
+    <div class="btn_style">
+        <button class=" btn btn-primary" style="height: 43px;
+        width: 150px;" type="submit" value="Submit"> Proceed</button>
+    </div>
 </form>
-    </div>
-    </div>
+</div>
+
+</div>
 <!-- From End --> 
+
+
+
 
 
     <!-- Facts Start -->
@@ -288,18 +305,7 @@
     font-weight:bold ;
   }
             </style>
-            <!-- <div class="mantine-1avyp1d" iconposition="right" iconsize="20" data-accordion="true">
-              
-                        <p><b><a href="#"  target="_blank">GST Registration</a></b></p>
-               
-                        <p><b><a href="#"  target="_blank">GST Filing</a></b></p>
-               
-                        <p><b><a href="#"  target="_blank">GST Advisory</a></b></p>
-                
-                        <p><b><a href="#"  target="_blank">GST For Individuals</a></b></p>
-                
-                        <p><b><a href="#"  target="_blank">GST Calculator</a></b></p>
-            </div> -->
+
         </li>
         <li class="styles_listItem__i2Clc">
             <p class="styles_cardTitle__elvTy">Protect Your Intellectual Property</p>
@@ -314,18 +320,7 @@
 
 
             </div>
-            <!-- <div class="mantine-1avyp1d" iconposition="right" iconsize="20" data-accordion="true">
-               
-                        <p><b><a href="#"  target="_blank">Trademark Registration</a></b></p>
-             
-                        <p><b><a href="#"  target="_blank">Trademark Watch</a></b></p>
-               
-                        <p><b><a href="#"  target="_blank">Trademark Renewal</a></b></p>
-               
-                        <p><b><a href="#"  target="_blank">Copyright Registration</a></b></p>
-                
-                        <p><b><a href="#"  target="_blank">Patent Registration</a></b></p>
-            </div> -->
+            
         </li>
         <li class="styles_listItem__i2Clc">
             <p class="styles_cardTitle__elvTy">Accounting &amp; Compliance</p>
@@ -339,18 +334,6 @@
                 <p><a href="#"  target="_blank">Prof Tax Registration</a></p>
                 <p><a href="#"  target="_blank">Income Tax Return Filing</a></p>
             </div>
-            <!-- <div class="mantine-1avyp1d" iconposition="right" iconsize="20" data-accordion="true">
-                
-                        <p><b><a href="#"  target="_blank">Maintain Your Accounts</a></b></p>
-               
-                        <p><b><a href="#"  target="_blank">Compilance Packages</a></b></p>
-               
-                        <p><b><a href="#"  target="_blank">Prof Tax Registration</a></b></p>
-              
-                        <p><b><a href="#"  target="_blank">Income Tax Return Filing</a></b></p>
-                
-                        <p><b><a href="#"  target="_blank">Payroll Maintenance</a></b></p>
-            </div> -->
         </li>
     </ul>
 
@@ -400,36 +383,6 @@
     </div>
     <!-- Facts End -->
 
-    <!-- Dummy effect start -->
-    <!-- <h1>Shutter Overlay Hover Effect</h1>
-    <div class="box">
-        <li class="styles_listItem__i2Clc">
-            <p class="styles_cardTitle__elvTy">Accounting &amp; Compliance</p>
-            <p class="styles_cardPrice__StPOM">Starting from ₹999/-</p>
-            <div class="styles_imgContainer__OuXKm"><img class="center"
-                    src="https://assets.vakilsearch.com/live-images/home-page-assets/graph.svg"></div>
-    <div class="box-content">
-      <div class="content">
-        <ul class="social">
-            <div class="mantine-1avyp1d" iconposition="right" iconsize="20" data-accordion="true">
-                
-                <p><b><a href="#"  target="_blank">Maintain Your Accounts</a></b></p>
-       
-                <p><b><a href="#"  target="_blank">Compilance Packages</a></b></p>
-       
-                <p><b><a href="#"  target="_blank">Prof Tax Registration</a></b></p>
-      
-                <p><b><a href="#"  target="_blank">Income Tax Return Filing</a></b></p>
-        
-                <p><b><a href="#"  target="_blank">Payroll Maintenance</a></b></p>
-    </div>
-        </ul> -->
-        <!-- <h3 class="title">John Doe</h3>
-        <span class="post">Web Designer</span> -->
-      <!-- </div>
-    </div>
-    </div> -->
-     <!-- Dummy effect end -->
 
     <!-- Service Start -->
     <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
