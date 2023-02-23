@@ -6,6 +6,12 @@
     --dark: #091E3E;
 }
 
+/* Paragraph Style */
+.prg_style{
+    text-align: justify;
+
+}
+/* Paragraph Style */
 /* Our Services Box Border */
  .box_border {
     border: 6px outset #bcd3df;
