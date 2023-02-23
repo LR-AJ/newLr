@@ -126,7 +126,6 @@
                             <a href="detail.html" class="dropdown-item">Blog Detail</a>
                         </div>
                     </div>
-
                 </div>
                 <button type="button" class="btn text-primary ms-3" data-bs-toggle="modal"
                     data-bs-target="#searchModal"><i class="fa fa-search"></i></button>
@@ -208,31 +207,66 @@
         </div>
     </div>
     <!-- Full Screen Search End -->
-    <div class="container-fluid facts ">
-        <!-- Service Box -->
-        <ul class="styles_listContainer__FEgCW facts">
-            <li class="styles_listItem__i2Clc">
-                <p class="styles_cardTitle__elvTy">Company Registration</p>
-                <p class="styles_cardPrice__StPOM">Starting from ₹999/-</p>
-                <div class="styles_imgContainer__OuXKm"><img class="center" src="img/briefcase.svg"></div>
-                <div class="content">
-                    <p><a href="#" target="_blank">Private Limited Company</a></p>
-                    <p><a href="#" target="_blank">One Person Company</a></p>
-                    <p><a href="#" target="_blank">Liability Partnership</a></p>
-                    <p><a href="#" target="_blank">Sole Proprietorship</a></p>
 
-                </div>
+  <!-- Form Start -->
+  <div class="container2 container_two wow fadeInLeft" style="background-color: white;">
+    <div class="rib-txt">
+        <h3>Apply Online</h3>
+    </div>
+<div class="form_styl"> 
+    <form class="formi" name="myForm" action="/action_page.php"
+    onsubmit="return validateForm()" method="post">
+    <input class="input_box_styl" type="text" name="fname" id="name" placeholder="Your Name" required>
+    <input class="input_box_styl" type="email" name="email" id="email" placeholder="Email"
+        pattern="^([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|
+        \x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22)
+        (\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|
+        \x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22))*\x40([^\x00-\x20\x22\x28\x29
+        \x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c
+        [\x00-\x7f])*\x5d)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\
+        x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d))*$"
+        required >
+    <input class="input_box_styl" type="tel" name="number" id="number" placeholder="Number"
+    minlength="8" maxlength="12">
+    <button class=" btn btn-primary" type="submit" value="Submit"> Proceed</button>
+</form>
+    </div>
+    </div>
+<!-- From End --> 
 
-            </li>
-            <li class="styles_listItem__i2Clc">
-                <p class="styles_cardTitle__elvTy">Register Your GST Plan</p>
-                <p class="styles_cardPrice__StPOM">Starting from ₹399/-</p>
-                <div class="styles_imgContainer__OuXKm"><img class="center" src="img/files.svg"></div>
-                <div class="content">
-                    <p><a href="#" target="_blank">GST Registration</a></p>
-                    <p><a href="#" target="_blank">GST Filing</a></p>
-                    <p><a href="#" target="_blank">GST Advisoryv</p>
-                    <p><a href="#" target="_blank">GST For Individuals</a></p>
+
+    <!-- Facts Start -->
+    <div class="container-fluid facts py-5 pt-lg-0">
+        <div class="container py-5 pt-lg-0">
+
+
+
+            <!-- Service Box -->
+    <ul class="styles_listContainer__FEgCW">
+        <li class="styles_listItem__i2Clc">
+            <p class="styles_cardTitle__elvTy">Register your company</p>
+            <p class="styles_cardPrice__StPOM">Starting from ₹999/-</p>
+            <div class="styles_imgContainer__OuXKm"><img class="center"
+                    src="img/briefcase.svg"></div>
+            <div class="content">
+                <p><a href="#"  target="_blank">Private Limited Company</a></p>
+                <p><a href="#"  target="_blank">One Person Company</a></p>
+                <p><a href="#"  target="_blank">Liability Partnership</a></p>
+                <p><a href="#"  target="_blank">Sole Proprietorship</a></p>
+
+            </div>
+           
+        </li>
+        <li class="styles_listItem__i2Clc">
+            <p class="styles_cardTitle__elvTy">GST</p>
+            <p class="styles_cardPrice__StPOM">Starting from ₹399/-</p>
+            <div class="styles_imgContainer__OuXKm"><img class="center"
+                    src="img/files.svg"></div>
+            <div class="content">
+                <p><a href="#"  target="_blank">GST Registration</a></p>
+                <p><a href="#"  target="_blank">GST Filing</a></p>
+                <p><a href="#"  target="_blank">GST Advisoryv</p>
+                <p><a href="#"  target="_blank">GST For Individuals</a></p>
 
                 </div>
 
