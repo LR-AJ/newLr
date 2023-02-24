@@ -6,6 +6,19 @@
     --dark: #091E3E;
 }
 
+/* Paragraph Style */
+.prg_style{
+    text-align: justify;
+}
+/* Paragraph Style */
+
+/* FAQ Style */
+.faq{
+padding-left: 8rem;
+ padding-right: 8rem;
+}
+/* FAQ Style */
+
 /* Our Services Box Border */
  .box_border {
     border: 6px outset #bcd3df;
