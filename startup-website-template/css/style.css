@@ -452,7 +452,12 @@ h6,
         color: var(--primary);
     }
 }
-
+.nav-root{
+    top: 6rem;
+    z-index: 1027;
+}
+@media (max-width: 1055px)
+{.nav-root{ top:9rem }}
 
 /*** Carousel ***/
 .carousel-caption {
