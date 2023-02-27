@@ -13,10 +13,7 @@
 /* Paragraph Style */
 
 /* FAQ Style */
-.faq{
-padding-left: 8rem;
- padding-right: 8rem;
-}
+
 /* FAQ Style */
 
 /* Our Services Box Border */
@@ -750,7 +747,27 @@ h6,
     background: linear-gradient(rgba(9, 30, 62, .7), rgba(9, 30, 62, .7)), url(../img/carousel-1.jpg) center center no-repeat;
     background-size: cover;
 }
-
+/* Image section For banner include different Page Classes */
+.drug_img{
+    background: linear-gradient(rgba(9, 30, 62, .7), rgba(9, 30, 62, .7)), url(../img/drug.jpg) center center no-repeat;
+    background-size: cover;
+}
+.company_reg{
+    background: linear-gradient(rgba(9, 30, 62, .7), rgba(9, 30, 62, .7)), url(../img/compant\ reg.jpg) center center no-repeat;
+    background-size: cover;
+}
+.msme_img{
+    background: linear-gradient(rgba(9, 30, 62, .7), rgba(9, 30, 62, .7)), url(../img/MSME.jpg) center center no-repeat;
+    background-size: cover;
+}
+.llp_img{
+    background: linear-gradient(rgba(9, 30, 62, .7), rgba(9, 30, 62, .7)), url(../img/Partnership_Registraion.jpg) center center no-repeat;
+    background-size: cover;
+}
+.fssai_img{
+    background: linear-gradient(rgba(9, 30, 62, .7), rgba(9, 30, 62, .7)), url(../img/food.jpg) center center no-repeat;
+    background-size: cover;
+}
 .link-animated a {
     transition: .5s;
 }
