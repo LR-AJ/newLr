@@ -19,6 +19,20 @@ padding-left: 8rem;
 }
 /* FAQ Style */
 
+
+/* ISO dropdown style */
+.iso_drp_dwn {
+    display:flex;
+    /* direction: row; */
+    justify-content: space-between;
+}
+
+.btn_wdth{
+    width:14rem;
+    background-color: #e6f6fb;
+}
+/* ISO dropdown style */
+
 /* Our Services Box Border */
  .box_border {
     border: 6px outset #bcd3df;
@@ -349,6 +363,21 @@ h6,
     .navbar-dark .navbar-brand h1 {
         color: var(--primary);
     }
+
+/* ISO dropdown style */
+.iso_drp_dwn {
+    display:flex;
+    flex-wrap: wrap;
+    /* direction: column; */
+    justify-content: space-between;
+    margin: auto;
+}
+
+.btn_wdth{
+    width:14rem;
+    background-color: #e6f6fb;
+}
+/* ISO dropdown style */
 
     /* From Style */
  .form_container{
