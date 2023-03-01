@@ -6,6 +6,13 @@
     --dark: #091E3E;
 }
 
+/* Icon box style */
+.icon_box {
+    width:20rem;
+}
+/* Icon box style */
+
+
 /* Paragraph Style */
 .prg_style{
     text-align: justify;
