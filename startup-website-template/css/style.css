@@ -13,10 +13,10 @@
 /* Icon box style */
 
 /* Second heading Padding */
-.heading_padding {
+/* .heading_padding {
     padding-left: 2rem;
     padding-right: 2rem;
-}
+} */
 /* Second heading Padding */
 
 /* Paragraph Style */
@@ -208,9 +208,19 @@ font-weight:bold ;
  /* 5 steps style */
  .points_style {
     box-shadow: 3px 3px 3px 3px gray;
-    padding: 1rem; border-left: 5px solid #091E3E;
+    padding: 1rem; 
+    border-left: 5px solid #091E3E;
 }
  /* 5 steps style */
+
+
+ /* Terms and condition style */
+ .points_style_one {
+    box-shadow: 3px 3px 3px 3px gray;
+    padding: 1rem;
+}
+ /* Terms and condition style */
+
 
 /*** Spinner ***/
 .spinner {
