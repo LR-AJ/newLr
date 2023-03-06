@@ -1,0 +1,1548 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Trademark Search | LegalRaasta</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta name="googlebot" content="noindex">
+    <meta name="description"
+        content="Trademark search tool to conduct free trademark public search. Find trademark applications along with logo, class, trademark owner and registration status.">
+    <!-- Favicon -->
+    <!-- <link href="img/favicon.ico" rel="icon"> -->
+    <link rel="icon" href="img/cropped-LegalRaahi-FavIcon-1.png" sizes="32x32" />
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&family=Rubik:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
+        integrity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e" crossorigin="anonymous">
+
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner"></div>
+    </div>
+    <!-- Spinner End -->
+
+    <!-- Topbar Start -->
+    <div class="container-fluid bg-dark px-5 d-none d-lg-block">
+        <div class="row gx-0">
+            <div class="col-lg-8 text-center text-lg-start mb-2 mb-lg-0">
+                <div class="d-inline-flex align-items-center" style="height: 45px;">
+                    <a
+                        href="https://www.google.com/maps/place/Legal+Raasta+Technologies+Private+Limited/@28.699307,77.1170229,16z/data=!4m10!1m2!2m1!1sLegalRaasta+Technologies+Pvt+Ltd!3m6!1s0x390d03c53679bedb:0x3624ba574fcc7425!8m2!3d28.699307!4d77.1239517!15sCiBMZWdhbFJhYXN0YSBUZWNobm9sb2dpZXMgUHZ0IEx0ZCIDiAEBkgEObGVnYWxfc2VydmljZXPgAQA!16s%2Fg%2F11c0xvwdmk">
+                        <small class="me-3 text-light"><i class="fa fa-map-marker-alt me-2"></i>B-300 Saraswati
+                            Vihar,Pitampura, New Delhi-110085</small>
+                    </a>
+                    <a href="tel:+918750008585">
+                        <small class="me-3 text-light"><i class="fa fa-phone-alt me-2"></i>+918750008585</small></a>
+
+
+                    <a href="mailto:contact@legalraasta.com">
+                        <small class="text-light"><i
+                                class="fa fa-envelope-open me-2"></i>contact@legalraasta.com</small></a>
+                </div>
+            </div>
+            <div class="col-lg-4 text-center text-lg-end">
+                <div class="d-inline-flex align-items-center" style="height: 45px;">
+                    <a class="btn btn-sm btn-outline-light alert-primary btn-sm-square rounded-circle me-2"
+                        href="https://twitter.com/RaastaLegal"><i class="fab fa-twitter fw-normal"></i></a>
+                    <a class="btn btn-sm btn-outline-light btn-primary btn-sm-square rounded-circle me-2"
+                        href="https://www.facebook.com/LRaasta"><i class="fab fa-facebook-f fw-normal"></i></a>
+                    <a class="btn btn-sm btn-outline-light  btn-primary btn-sm-square rounded-circle me-2"
+                        href="https://www.linkedin.com/company/legalraasta/mycompany/"><i
+                            class="fab fa-linkedin-in fw-normal"></i></a>
+                    <a class="btn btn-sm btn-outline-danger btn-light  btn-sm-square rounded-circle me-2"
+                        href="https://www.instagram.com/legal.raasta/"><i class="fab fa-instagram fw-normal"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Topbar End -->
+
+
+    <!-- Navbar Start -->
+    <div class="container-fluid position-relative p-0">
+        <nav class="navbar navbar-expand-lg navbar-dark px-5 py-3 py-lg-0">
+            <a href="index.html" class="navbar-brand p-0">
+                <img src="legaraasta.jpg" alt="" width="250px" height="90px">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="fa fa-bars"></span>
+            </button>
+            <div class="collapse navbar-collapse" style="flex-wrap: wrap;" id="navbarCollapse">
+                <div class="navbar-nav ms-auto py-0">
+                    <!-- <a href="index.html" class="nav-item nav-link active">Home</a>
+                    <a href="about.html" class="nav-item nav-link">About</a>
+                    <a href="service.html" class="nav-item nav-link">Services</a> -->
+
+
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Form a Business</a>
+                        <div class="dropdown-menu m-0">
+                            <a href="blog.html" class="dropdown-item">Blog Grids</a>
+                        </div>
+                    </div>
+
+
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Registration</a>
+                        <div class="dropdown-menu m-0">
+                            <a href="private_company_reg.html" class="dropdown-item">Private Limited Company
+                                Registration</a>
+                            <a href="EatingHouseLicense.html" class="dropdown-item">Eating House License</a>
+                            <a href="msmi_reg.html" class="dropdown-item">MSME/SSI Registration</a>
+                            <a href="druglicense.html" class="dropdown-item">Drug License</a>
+                            <a href="detail.html" class="dropdown-item">Blog Detail</a>
+                        </div>
+                    </div>
+
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Tax</a>
+                        <div class="dropdown-menu m-0">
+                            <a href="blog.html" class="dropdown-item">Blog Grid</a>
+                            <a href="detail.html" class="dropdown-item">Blog Detail</a>
+                        </div>
+                    </div>
+
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Trademark/Patent</a>
+                        <div class="dropdown-menu m-0">
+                            <a href="blog.html" class="dropdown-item">Blog Grid</a>
+                            <a href="detail.html" class="dropdown-item">Blog Detail</a>
+                        </div>
+                    </div>
+
+
+
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Compliances</a>
+                        <div class="dropdown-menu m-0">
+                            <a href="blog.html" class="dropdown-item">Blog Grid</a>
+                            <a href="detail.html" class="dropdown-item">Blog Detail</a>
+                        </div>
+                    </div>
+                </div>
+                <button type="button" class="btn text-primary ms-3" data-bs-toggle="modal"
+                    data-bs-target="#searchModal"><i class="fa fa-search"></i></button>
+                <a href="tel: +918750008585" class="btn btn-primary py-2 px-4 ms-3">Contact Us</a>
+            </div>
+        </nav>
+
+        <div class="container-fluid bg-primary py-5 bg-header">
+            <div class="row py-5">
+                <div class="col-12 col-lg-6  text-left">
+                    <h1 class="display-4 pt-lg-5  text-white  ps-lg-3  animated zoomIn">Trademark Search
+                    </h1>
+                    <h3 class="text-white   mt-lg-5 animated zoomIn px-2">Check the availability of your Logo , Brand
+                        Name</h3>
+                    <h3 class="text-white   mt-lg-5 animated zoomIn">
+                        <ul class="ul_list_background">
+
+                            <li class="font_li"><span>Online free trademark search tool</span></li>
+                            <li class="font_li"><span>Search for trademark classes</span></li>
+                            <li class="font_li"><span>Well Qualified Team</span></li>
+                            <li class="font_li"><span>Fast &amp; Quick Process</span></li>
+                            <li class="font_li"><span>Free Consultations Lifetime</span></li>
+                            <li class="font_li"><span>Lowest Price</span></li>
+                            <li class="font_li"><span>100% Customer Satisfaction</span></li>
+                        </ul>
+                        <style>
+                            .ul_list {
+                                list-style-type: none;
+                            }
+
+                            .font_li {
+                                list-style-type: none;
+                                padding-bottom: 20px;
+
+                            }
+
+                            .font_li ::before {
+                                content: '✓';
+                                margin-right: 0.5rem;
+
+                            }
+                        </style>
+                    </h3>
+
+                </div>
+                <div class="col-12 col-lg-6 pt-5 pt-lg-5 mt-lg-5 px-5 text-center justify-content-center">
+                    <div class="w-75 py-5 rounded-3 px-0 bg-light mt-sm-auto">
+                        <h3 class="mb-5">Apply  Now!</h3>
+                        <form action="https://www.legalraasta.com/drug-license/" class="d-flex justify-content-center ">
+                            <div class="row g-3 justify-content-center ">
+                                <div class="col-lg-8 col-7">
+                                    <input class="form-control bg-light  " type="name" name="name" id="name"
+                                        placeholder="Your Name" pattern="^([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|
+                                    \x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22)
+                                    (\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|
+                                    \x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22))*\x40([^\x00-\x20\x22\x28\x29
+                                    \x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c
+                                    [\x00-\x7f])*\x5d)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\
+                                    x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d))*$" required
+                                        style="height: 55px;border: none;
+                                    border-bottom: 2px solid grey !important;">
+                                </div>
+                                <div class="col-lg-8 col-7">
+                                    <input class="form-control bg-light " type="email" name="email" id="email"
+                                        placeholder="Email" pattern="^([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|
+                                    \x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22)
+                                    (\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|
+                                    \x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22))*\x40([^\x00-\x20\x22\x28\x29
+                                    \x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c
+                                    [\x00-\x7f])*\x5d)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\
+                                    x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d))*$" required
+                                        style="height: 55px; border: none ;border-bottom: 2px solid grey !important; ">
+                                </div>
+                                <div class="col-lg-8 col-7">
+                                    <input class="form-control bg-light " type="tel" name="number" id="number"
+                                        placeholder="Number" minlength="8" maxlength="10"
+                                        style="height: 55px;    border: none; border-bottom: 2px solid grey !important;">
+                                </div>
+                                <div class="col-lg-8 col-7">
+                                    <button class="btn btn-dark w-100 py-3" type="submit">Proceed</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Navbar End -->
+    <a href="" class="h5 text-white">Home</a>
+    <i class="far fa-circle text-white px-2"></i>
+    <a href="" class="h5 text-white">Blog Grid</a>
+
+    <!-- Full Screen Search Start -->
+    <div class="modal fade" id="searchModal" tabindex="-1">
+        <div class="modal-dialog modal-fullscreen">
+            <div class="modal-content" style="background: rgba(9, 30, 62, .7);">
+                <div class="modal-header border-0">
+                    <button type="button" class="btn bg-white btn-close" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+                </div>
+                <div class="modal-body d-flex align-items-center justify-content-center">
+                    <div class="input-group" style="max-width: 600px;">
+                        <input type="text" class="form-control bg-transparent border-primary p-3"
+                            placeholder="Type search keyword">
+                        <button class="btn btn-primary px-4"><i class="bi bi-search"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Full Screen Search End -->
+
+
+    <!-- Form Start -->
+    <div class="form_container">
+        <span class="rib-txt">Apply Now!</span>
+        <div>
+            <form class="flex-container container_two wow fadeInLeft" style="background-color: white; " name="myForm"
+                action="/action_page.php" onsubmit="return validateForm()" method="post">
+
+                <div>
+                    <input class="input_box_styl" type="text" name="fname" id="name" placeholder="Your Name" required>
+                </div>
+
+                <div>
+                    <input class="input_box_styl" type="email" name="email" id="email" placeholder="Email" pattern="^([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|
+        \x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22)
+        (\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|
+        \x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22))*\x40([^\x00-\x20\x22\x28\x29
+        \x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c
+        [\x00-\x7f])*\x5d)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\
+        x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d))*$" required>
+                </div>
+
+                <div>
+                    <input class="input_box_styl" type="tel" name="number" id="number" placeholder="Number"
+                        minlength="8" maxlength="12">
+                </div>
+
+                <div class="btn_style">
+                    <button class=" btn btn-primary" style="height: 43px;
+        width: 150px;" type="submit" value="Submit"> Proceed</button>
+                </div>
+            </form>
+        </div>
+
+    </div>
+    <!-- From End -->
+    <!-- Nav Root -->
+    <div class="position-sticky d-lg-flex  d-none flex-row justify-content-center nav-root bg-light">
+
+        <div class="d-md-flex flex-row justify-content-between">
+            <!-- <a href="#procedure">
+                <div class="px-xl-5 px-5 text-decoration-none fw-lighter p-1  fs-5 " style="color:#091E3E">Procedure
+                </div>
+            </a> -->
+            <a href="#definition">
+                <div class="px-xl-5 px-5   fw-lighter p-1  fs-5 " style="color:#091E3E">Definition</div>
+            </a>
+            <!-- <a href="#document">
+                <div class="px-xl-5 px-5   fw-lighter p-1  fs-5 " style="color:#091E3E">Documents</div>
+            </a> -->
+            <a href="#type">
+                <div class="px-xl-5 px-5   fw-lighter p-1  fs-5 " style="color:#091E3E">Type</div>
+            </a>
+            <a href="#search_classes">
+                <div class="px-xl-5 px-5   fw-lighter p-1  fs-5 " style="color:#091E3E">Search Classes</div>
+            </a>
+            <a href="#infringement">
+                <div class="px-xl-5 px-5   fw-lighter p-1  fs-5 " style="color:#091E3E">Infringement</div>
+            </a>
+            <a href="#faq">
+                <div class="px-xl-5 px-5   fw-lighter p-1  fs-5 " style="color:#091E3E">FAQ</div>
+            </a>
+        </div>
+
+    </div>
+    <!-- Nav Root -->
+
+
+
+
+
+
+
+    <!-- Trademark Search Start -->
+    <div class="section-title text-center position-relative py-5 pb-3 mb-5 mx-auto" id="definition"
+        style="max-width: 1000px;">
+        <h1 class="mb-0">Trademark Search</h1><br>
+    </div>
+    <div class="container-fluid ">
+        <div class="container">
+            <div class="row g-5">
+
+
+
+                <p class="prg_style">A Trademark search is done to ensure that any trademark, which an applicant wishes
+                    to register, does not cause the likelihood of confusion with an already applied mark. We at
+                    “LegalRaasta” offer free service of trademark search for you. We have the updated database for ease
+                    of the process and this is a hassle-free online process for you.
+                </p>
+
+            </div>
+        </div>
+    </div>
+    <!-- Trademark Search End -->
+
+
+
+    <!-- Types of Trademark Search Start -->
+    <div class="container-fluid py-5" id="type">
+        <div class="container">
+            <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 1200px;">
+                <h1 class="mb-0">Types of Trademark Search</h1><br>
+            </div>
+
+            <div class="col-12 points_style" data-wow-delay="0.2s">
+                <h4>Word Search:</h4>
+                <p class="mb-0">This type of search allows you to retrieve trademarks that use the same word as that of
+                    the query entered. </p>
+            </div><br>
+            <div class="col-12 points_style" data-wow-delay="0.2s">
+                <h4>Vienna Code Search:</h4>
+                <p class="mb-0">In some cases, a trademark may contain the same visual elements as that of other
+                    companies. It would be difficult to search for such marks. India is a member of the Vienna
+                    convention, so it follows the international classification for the same. </p>
+            </div><br>
+            <div class="col-12 points_style" data-wow-delay="0.2s">
+                <h4>Phonetic Search:</h4>
+                <p class="mb-0">The phonetic search interface is used in the case of similar-sounding trademark words.
+                    It is a useful type of search as it sometimes provides results having a different spelling but a
+                    similar sound.
+                </p>
+            </div><br>
+
+
+
+        </div>
+        <!-- Types of Trademark Search End -->
+
+
+
+
+        <!--Trademark Search Classes Start -->
+        <div class="container-fluid" id="search_classes">
+            <div class="container py-5">
+                <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 900px;">
+                    <h1 class="mb-0">Trademark Search Classes</h1><br>
+                    <!-- <h5 class="fw-bold text-primary text-uppercase">We Are Here to Grow Your Business Exponentially</h5> -->
+                </div>
+
+                <p class="prg_style">According to the NICE classification, the trademark is classified into 45
+                    categories. Among this, 34 classed represents goods and 11 represents services. Since each class
+                    shows a unique category of goods and services, so you should choose the right class for your
+                    trademark. The process is carried out, once you select the category/class for your goods/services.
+                </p>
+
+                <h4>Classification of goods</h4>
+                <ul style="list-style: none;">
+                    <li><span style="color: #091E3E;">&#10004;</span>&nbsp; &nbsp;In the case of finished goods, it is
+                        classified according to it’s purpose or function. If the function is not mentioned, then the
+                        user can classify it by analogy with other comparable finished products (mentioned in the
+                        alphabetical list). And even if this is not possible, then an applicant can classify on the
+                        basis of the material of which the product is made or it’s mode of operation.</li>
+                    <li><span style="color: #091E3E;">&#10004;</span>&nbsp; &nbsp;In the case of multi-purpose finished
+                        goods, it could be classified on the basis of any of it’s functions. If the function is not
+                        mentioned, then it could be classified on the basis of the material of which the product is made
+                        or it’s mode of operation.</li>
+                    <li><span style="color: #091E3E;">&#10004;</span>&nbsp; &nbsp;In the case of raw materials, whether
+                        unworked/semi-worked, they are classified on the basis of the material they consist of.</li>
+                    <li><span style="color: #091E3E;">&#10004;</span>&nbsp; &nbsp;In case a product is made using
+                        different materials, then it is classified on the basis of the material that predominates.</li>
+                    <li><span style="color: #091E3E;">&#10004;</span>&nbsp; &nbsp;Any good that forms part of another
+                        product is in principle classified in the same class as that product only when the same type of
+                        goods cannot normally be used for another purpose. In any other case, the first point mentioned
+                        above applies.</li>
+                </ul>
+
+                <h4>Classification of services</h4>
+                <ul style="list-style: none;">
+                    <li><span style="color: #091E3E;">&#10004;</span>&nbsp; &nbsp;The principal basis on which the
+                        services are classified is according to the branches of activities specified in the headings of
+                        the service classes and in their explanatory notes. And if this is not the case, then this is
+                        done using other services mentioned in the Alphabetical List.</li>
+                    <li><span style="color: #091E3E;">&#10004;</span>&nbsp; &nbsp;In the case of any rental services,
+                        the classification is in the same class as the ‘services provided by means of rented objects’.
+                    </li>
+                    <li><span style="color: #091E3E;">&#10004;</span>&nbsp; &nbsp;Any service that provides advice,
+                        information, or consultation is classified in the same class as in the case of matter of the
+                        advice, information, or consultation.</li>
+                </ul><br>
+
+                <style>
+                    table,
+                    th,
+                    td {
+                        border: 1px solid black;
+                        padding: 10px;
+                    }
+                </style>
+                
+                        <table class="w-100">
+                            <thead>
+                                <tr class="text-center">
+                                    <th width="100"><strong>Classes </strong></th>
+                                    <th width="738"><strong>Category of Trademarks</strong></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Class 1</td>
+                                    <td>Any kind of Chemicals that are used in Industries, science or photography, even
+                                        chemicals used in agriculture, horticulture and forestry, also the adhesives
+                                        used in Industry, unprocessed plastics, chemical substances involved inedible
+                                        substances.</td>
+                                </tr>
+                                <tr>
+                                    <td>Class 2</td>
+                                    <td>Any kind of paints or varnishes, any preservative used against rust and damage
+                                        of wood, metals used in foil and powder form used by painters, decorators or
+                                        printers, even mordant and colorants</td>
+                                </tr>
+                                <tr>
+                                    <td>Class 3</td>
+                                    <td>Substances used in laundry, also cleaning and polishing; and has chemical
+                                        applications, soaps, perfumes, oils, any kind of cosmetics</td>
+                                </tr>
+                                <tr>
+                                    <td>Class 4</td>
+                                    <td>All industrial greases and oils, any kind of lubricants, wetting or binding
+                                        compositions, all fuels and candles and wicks.</td>
+                                </tr>
+                                <tr>
+                                    <td>Class 5</td>
+                                    <td>Medical preparations (Veterinary and Pharmaceutical, including sanitary
+                                        preparations also, any dietetic substance), baby food, plasters, dressing
+                                        material, disinfectants, dental wax, preparations to destroy vermin.</td>
+                                </tr>
+                                <tr>
+                                    <td>Class 6</td>
+                                    <td>Common Metals and alloys, any material used for metal building; non-electric
+                                        cables and wires (all of the common metals), pipes and tubes, and other small
+                                        metal hardware, also ones are included</td>
+                                </tr>
+                                <tr>
+                                    <td>Class 7</td>
+                                    <td>Machines and their tools, motors or engines (land vehicles not included),
+                                        incubators (for eggs), and agriculture machines (hand-operated not included).
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Class 8</td>
+                                    <td>Hand tools, cutlery, razors, and sidearms.</td>
+                                </tr>
+                                <tr>
+                                    <td>Class 9</td>
+                                    <td>Any instrument and apparatus used in science, navigation, Photography,
+                                        Cinematography, optics, weights and measurements, signals, supervision,
+                                        life-saving and/or teaching, also conducting, transforming, switching,
+                                        regulating, transmitting or reproduction of sound or images; any kind of
+                                        magnetic data carriers or recording discs, vending machines(automatic) and any
+                                        coin-operated apparatus; computers, cash registers, calculating machines and
+                                        fire-extinguishing apparatus.</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p>Class 10</p>
+                                    </td>
+                                    <td>Any kind of medical apparatus including surgical, dental and veterinary
+                                        instruments and apparatus, artificial limbs or eyes or teeth; Orthopedic
+                                        articles also included.</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p>Class 11</p>
+                                    </td>
+                                    <td>Any lighting, steam generating, heating, drying, cooking, refrigerating,
+                                        ventilating, sanitary or water supply related appliances and apparatus.</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p>Class 12</p>
+                                    </td>
+                                    <td>Vehicles and apparatus for locomotion (in/by land, air or water)</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p>Class 13</p>
+                                    </td>
+                                    <td>Fireworks, Firearms, Explosives, and ammunition (also projectiles).</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p>Class 14</p>
+                                    </td>
+                                    <td>Any precious metal and its alloy and any goods made of that precious metal or
+                                        even coated with, jewels and ornaments and precious stones; also chronometric
+                                        instruments.</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p>Class 15</p>
+                                    </td>
+                                    <td>Any Musical Instrument</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p>Class 16</p>
+                                    </td>
+                                    <td>Cardboard and paper; any goods made from them; printed matter, photographs and
+                                        all stationary given that they are not included in any other classes, adhesives
+                                        (at the household level), paintbrushes, office requisites; teaching material
+                                        (excluding any kind of apparatus), printing blocks and plastic material for
+                                        packaging.</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p>Class 17</p>
+                                    </td>
+                                    <td>Rubber, mica, gutta-percha, asbestos, gum, and any goods made from these,
+                                        packing, insulating and stopping materials, extruded plastics, pipes (flexible
+                                        and not made up of metals).</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p>Class 18</p>
+                                    </td>
+                                    <td>Leather any kind of its limitation, any goods from this material, trunks, hides,
+                                        animal skins, and traveling bags; parasols, umbrellas, and walking sticks also
+                                        harness and whips.</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p>Class 19</p>
+                                    </td>
+                                    <td>Non- metallic building materials, rigid pipes again non-metallic and used for
+                                        building purposes; bitumen, asphalt, and pitch; monuments, not of metal.</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p>Class 20</p>
+                                    </td>
+                                    <td>Mirrors, furniture, picture frames; any goods of wood, reed, cork, wicker, cane,
+                                        bone, horn, whalebone, ivory, amber, shell, meerschaum, mother-of-pearl or any
+                                        kind of their substitutes, also plastics given that they are not included in any
+                                        other class.</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p>Class 21</p>
+                                    </td>
+                                    <td>Household utensils and containers (including kitchen), sponges and combs;
+                                        brushes(excluding paint brushes) and materials included in their making; steel
+                                        wool and unprocessed glass, porcelain and glassware; also earthenware.</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p>Class 22</p>
+                                    </td>
+                                    <td>“Tents, nets, strings, ropes, tarpaulins, awnings, sacks, sails, bags (which are
+                                        excluded from other classes); stuffing and padding materials; raw textile
+                                        materials (fibrous).</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p>Class 23</p>
+                                    </td>
+                                    <td>Threads and Yarns (textile use).</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p>Class 24</p>
+                                    </td>
+                                    <td>Textile and their goods; bed covers and table covers.</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p>Class 25</p>
+                                    </td>
+                                    <td>Footwear, clothing, and headgear.</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p>Class 26</p>
+                                    </td>
+                                    <td>Ribbons, Embroidery, Lace, and braid; hooks and buttons, needles and pins;
+                                        artificial flowers.</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p>Class 27</p>
+                                    </td>
+                                    <td>Mats, rugs, carpets and matting, linoleum, and other similar materials used for
+                                        covering existing floors and also wall-hangings which are non-textile</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p>Class 28</p>
+                                    </td>
+                                    <td>Sporting and gymnastic articles; games and any kind of playthings given that
+                                        they are not included in other classes and also decorations for Christmas Trees.
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p>Class 29</p>
+                                    </td>
+                                    <td>Fish, meat, poultry; meat extracts; dried, cooked, frozen edibles (fruits and
+                                        vegetables), jellies, jams; eggs, milk, and its products, oil (edible).</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p>Class 30</p>
+                                    </td>
+                                    <td>“Tea, coffee, rice, sugar, tapioca, artificial coffee, and sago; bread, flour,
+                                        pastry and confectionery; honey, ices, yeast, treacle, salt, baking powder,
+                                        mustard, sauces, vinegar, spices, and ice.</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p>Class 31</p>
+                                    </td>
+                                    <td>Products from agriculture, forest and horticulture, and grains gave that they
+                                        are not included in other classes; fresh vegetables and fruits; live animals;
+                                        seeds; plants and flowers (natural); food product for animals</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p>Class 32</p>
+                                    </td>
+                                    <td>Mineral and aerated water; Non-alcoholic drinks and beers; fruit juices and
+                                        drinks; syrups and preparation for beverages.</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p>Class 33</p>
+                                    </td>
+                                    <td>Alcoholic drinks (excluding beers).</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p>Class 34</p>
+                                    </td>
+                                    <td>Smoking articles, Tobacco, and matches.</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p>Class 35</p>
+                                    </td>
+                                    <td>Business Management; advertising; business administration and other office
+                                        functions.</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p>Class 36</p>
+                                    </td>
+                                    <td>Financial affairs, Insurance; Monetary affairs; real estate affairs.</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p>Class 37</p>
+                                    </td>
+                                    <td>Repair, Building construction, Installation Services.</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p>Class 38</p>
+                                    </td>
+                                    <td>Telecommunications</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p>Class 39</p>
+                                    </td>
+                                    <td>Packaging and storage of goods; Transport.</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p>Class 40</p>
+                                    </td>
+                                    <td>Treatment of Materials.</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p>Class 41</p>
+                                    </td>
+                                    <td>Providing training; Entertainment; sporting; Education and other cultural
+                                        activities.</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p>Class 42</p>
+                                    </td>
+                                    <td>Technological and scientific services; industrial analysis and research
+                                        services; development of computer hardware and software and their design.</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p>Class 43</p>
+                                    </td>
+                                    <td>Services related to providing drinks and food or temporary accommodation.</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p>Class 44</p>
+                                    </td>
+                                    <td>Any kind of Medical services (including Veterinary, hygienic, and beauty
+                                        services) both for humans and animals; horticulture, agriculture, and forest
+                                        services.</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p>Class 45</p>
+                                    </td>
+                                    <td>Legal and security services; personal and social services.</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                   
+
+
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+    </div>
+    <!--Trademark Search Classes End -->
+
+
+
+
+    <!-- Why is Trademark Search Necessary? Start -->
+    <div class="container-fluid">
+        <div class="container ">
+            <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 900px;">
+                <h1 class="mb-0">Why is Trademark Search Necessary?</h1><br>
+            </div>
+            <h5 class="mb-4 prg_style">Trademark search is very advantageous at many steps of your trademark
+                registration process. The following are the benefits of a trademark search:
+            </h5>
+            <ul style="list-style: none;">
+                <li><span style="color: #091E3E;">&#10004;</span>&nbsp; &nbsp;Before registration, it is advised that
+                    you conduct a trademark search. This will save you time and effort, as if there are any trademarks
+                    similar to yours, you can opt for something novel and won’t register the current mark.</li>
+                <li><span style="color: #091E3E;">&#10004;</span>&nbsp; &nbsp;There is also a chance of
+                    refusal/rejection of your trademark if it doesn’t comply with the Trademark Act, 1999.</li>
+                <li><span style="color: #091E3E;">&#10004;</span>&nbsp; &nbsp;It will continue to save your time and
+                    effort even after the registration process is through. For instance, let’s say that you have
+                    registered your trademark, but afterward, there is some infringement and so it is liable for
+                    revocation. This could be avoided if you have done a trademark research.</li>
+                <li><span style="color: #091E3E;">&#10004;</span>&nbsp; &nbsp;The search would let you know that your
+                    brand is different and attractive enough to attract customers. It will create a sense of exclusivity
+                    for your brand.</li>
+            </ul>
+        </div>
+        <!-- Why is Trademark Search Necessary? End -->
+
+
+
+        <!-- Trademark Portfolio Management Start -->
+        <div class="container-fluid py-5">
+            <div class="container ">
+                <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 900px;">
+                    <h1 class="mb-0">Trademark Portfolio Management</h1><br>
+                </div>
+                <h5 class="mb-4 prg_style">Trademark portfolio management indicates the management of application from
+                    the beginning to the end of it. The portfolio includes certain activities that include
+                </h5>
+                <ul style="list-style: none;">
+                    <li><span style="color: #091E3E;">&#10004;</span>&nbsp; &nbsp;Docketing of the filed application
+                    </li>
+                    <li><span style="color: #091E3E;">&#10004;</span>&nbsp; &nbsp;Tracking upcoming deadlines</li>
+                    <li><span style="color: #091E3E;">&#10004;</span>&nbsp; &nbsp;Informing the clients about the
+                        deadlines</li>
+                    <li><span style="color: #091E3E;">&#10004;</span>&nbsp; &nbsp;Coordinating with foreign attorneys
+                        regarding any application filed outside India</li>
+                    <li><span style="color: #091E3E;">&#10004;</span>&nbsp; &nbsp;Complete management of application
+                        till registration and renewal</li>
+                </ul>
+            </div>
+            <!-- Trademark Portfolio Management End -->
+
+
+
+
+
+            <!-- Trademark Infringement Start -->
+            <div class="container-fluid py-5" id="infringement">
+                <div class="container ">
+                    <div class="section-title text-center position-relative pb-3 mb-5 mx-auto"
+                        style="max-width: 900px;">
+                        <h1 class="mb-0">Trademark Infringement</h1><br>
+                    </div>
+                    <p class="prg_style">In case one uses a registered trademark without the authorization of the
+                        trademark owner, then it is considered trademark infringement. It is an offense under the Trade
+                        Marks Act,1999. Under this, the registered trademark owner can issue a notice to the infringer
+                        to stop the use of the mark.<br><br>
+
+                        Even after this, if the infringement is continued, then action to cease all goods that violate
+                        the Trade Marks Act could be initiated. And the claim for the damages can be initiated.
+                    </p>
+
+                </div>
+                <!-- Trademark Infringement End -->
+
+
+
+
+
+            </div>
+        </div>
+        <!-- Blog End -->
+
+
+
+
+        <!-- Why choose Legal Raasta-->
+        <div class="container-fluid ">
+            <div class="container py-3 pt-0">
+                <div class="section-title text-center position-relative  mb-2 mx-auto">
+                    <h1 class="mb-0">Why Choose Legal Raasta</h1><br>
+                </div>
+                <div class="container-fluid w-100 py-1 ">
+                    <div class="container d-flex justify-content-center g-1 flex-wrap">
+                        <div class="d-flex flex-column  mx-2 py-3 px-2 text-center fs-6 flex-wrap my-5 "
+                            style="border:2px outset #061429">
+                            <i class="bi bi-building display-1" style="color: #091E3E; "></i>
+                            <span class="fw-bold text-break " style="color: #091E3E;">30+ Offices in India</span>
+                        </div>
+                        <div class="d-flex flex-column mx-2  py-3 px-2 text-center fs-6 flex-wrap my-5 "
+                            style="border:2px outset #061429">
+                            <i class="bi bi-person-check-fill  display-1" style="color: #091E3E;"></i>
+                            <span class="fw-bold text-break" style="color: #091E3E;">10+ Years Experience</span>
+                        </div>
+                        <div class="d-flex flex-column mx-2 py-3 px-2 text-center fs-6 flex-wrap my-5 "
+                            style="border:2px outset #061429">
+                            <i class="bi bi-shield-check  display-1" style="color: #091E3E;"></i>
+                            <span class="fw-bold word-wrap " style="color: #091E3E;">Economical and Fast</span>
+                        </div>
+                        <div class="d-flex flex-column mx-2 py-3 px-2 text-center fs-6 flex-wrap my-5 "
+                            style="border:2px outset #061429">
+                            <i class="bi bi-cash-stack  display-1" style="color: #091E3E;"></i>
+                            <span class="fw-bold word-wrap " style="color: #091E3E;">Money Back Guarantee</span>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+        <!-- End of Legal Raasta -->
+
+        <!-- Vendor Start -->
+        <div class="container-fluid py-3 ">
+            <div class="section-title text-center position-relative pb-3 mb-4 mx-auto">
+                <h1 class="mb-0">Clients</h1><br>
+            </div>
+            <div class="container vendorimg d-flex justify-content-center">
+                <div class="bg-white">
+
+                    <img src="hcl.svg" alt="" class="mx-4">
+                    <img src="Kotak.svg" alt="" class="mx-4">
+                    <img src="yokohama-logo.svg" alt="" class="mx-4">
+                    <img src="tcs.svg" alt="" class="mx-4">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Vendor End -->
+
+
+
+
+    <!-- FAQ Start -->
+    <div class="section-title text-center position-relative pb-3 mb-5 mx-auto faq" id="faq" style="max-width: 1200px;">
+        <h1 class="mb-0">Frequently Asked Questions</h1><br>
+    </div>
+    <div class="accordion faq px-lg-5 mx-lg-5" id="accordionExample">
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                    <strong>1. What is a trademark search?
+                    </strong>
+                </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    A Trademark search is done to ensure that any trademark which an applicant wishes to register, does
+                    not cause a likelihood of confusion with an already applied mark. We at “LegalRaasta” offer free
+                    service of trademark search for you. We have the updated database for ease of the process and this
+                    is a hassle-free online process for you.
+                </div>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    <strong>2. How to get a trademark search?
+                    </strong>
+                </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    You can use our service of Trademark Search, by simply going to our site
+                    https://www.”LegalRaasta”.com/trademark-search/
+                </div>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    <strong>3. How much does it cost to get a trademark search?
+                    </strong>
+                </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    Of course, at Trademark Search an initiative by “LegalRaasta”, we have provided a database to
+                    perform a trademark search online under various categories and classes of trademarks.
+                </div>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingFour">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                    <strong>4. What is the process of getting a trademark search?
+                    </strong>
+                </button>
+            </h2>
+            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    There are 2 steps in the process of conducting a trademark search: • First, you need to visit our
+                    website: https://www.legalraasta.com/trademark-search/ • Then you need to fill in the required
+                    details. Along with the query for our experts.
+                </div>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingFive">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                    <strong>5. What is a trademark?
+                    </strong>
+                </button>
+            </h2>
+            <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    A trademark, which is also known as brand name, could be a word signature, label, name, device,
+                    numerals, or combination of colors used by a company on goods or services or any other articles of
+                    commerce. It is used to distinguish one company’s a product/service from another.
+                </div>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingSix">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                    <strong>6. What are the legal requirements to register a trademark?
+                    </strong>
+                </button>
+            </h2>
+            <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    The requirements to register a trademark are: • The trademark should be capable of being represented
+                    graphically. • The trademark you use should be capable of distinguishing your goods and services
+                    from the other.
+                </div>
+            </div>
+        </div>
+
+
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingSeven">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                    <strong>7. How can I find a trademark?
+                    </strong>
+                </button>
+            </h2>
+            <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    For this purpose, there are several online tools available. Through these tools, you can easily
+                    discover all the possible infringements of existing trademarks by your proposed trademark. Besides,
+                    you can also use our trademark search tool given above to find the trademark you are looking for.
+                </div>
+            </div>
+        </div>
+
+
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingEight">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                    <strong>8. What are the cases of trademark cancellation?
+                    </strong>
+                </button>
+            </h2>
+            <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    Based on the following grounds, a trademark can be canceled: • If the mark is descriptive • If the
+                    mark is not distinctive • If the mark is misleading, deceptive, or disparaging • If the mark is
+                    functional • If the mark is generic • If the mark consists of a geographical indication • If the
+                    mark is against public policy or principle or morality • If the mark is used in a misleading manner
+                    • If the mark is prohibited in the jurisdiction • If the application for registration of the mark
+                    was made in bad faith • In case the trademark contains protected armorial bearings, flags, and other
+                    State emblems.
+                </div>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingNine">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+                    <strong>9. How long is the opposition period?
+                    </strong>
+                </button>
+            </h2>
+            <div id="collapseNine" class="accordion-collapse collapse" aria-labelledby="headingNine"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    The starting date of the opposition period is the date on which the Trade Mark journal is made
+                    available to the public. It ends after 4 months (120 days) from the date on which the journal was
+                    made public. There is no extension to this date.
+                </div>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTen">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
+                    <strong>10. Who can oppose a trademark application?
+                    </strong>
+                </button>
+            </h2>
+            <div id="collapseTen" class="accordion-collapse collapse" aria-labelledby="headingTen"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    Anyone can oppose your trademark application.
+                </div>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingEleven">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven">
+                    <strong>11. What is the portal at which I can conduct a trademark search?
+                    </strong>
+                </button>
+            </h2>
+            <div id="collapseEleven" class="accordion-collapse collapse" aria-labelledby="headingEleven"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    You can go to https://www.legalraasta.com/trademark-search/
+                </div>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwelve">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseTwelve" aria-expanded="false" aria-controls="collapseTwelve">
+                    <strong>12. How many types of trademarks can be registered in India?
+                    </strong>
+                </button>
+            </h2>
+            <div id="collapseTwelve" class="accordion-collapse collapse" aria-labelledby="headingTwelve"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    The following provides you the types of trademarks registered in India: • Any name (or surname)
+                    which is not unusual to be used as a trademark • Letters/numerals or a combination of both • Devices
+                    (fancy devices or symbols) • Monograms • A combination of colors or a combination of a single color
+                    with a word/device • Shape of goods or their packaging • Marks made up of 3-D design • Sound marks
+                    when represented in conventional notation or described in words by being graphically represented. •
+                    An invented word or any arbitrary dictionary word or words, not being directly descriptive of the
+                    character or quality of goods/services. • The right to proprietorship of a trademark may be acquired
+                    by either registration under the Act or by use with particular goods or services.
+
+                </div>
+            </div>
+        </div>
+
+
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="heading13">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapse13" aria-expanded="false" aria-controls="collapse13">
+                    <strong>13. What does (R) and TM identify?
+                    </strong>
+                </button>
+            </h2>
+            <div id="collapse13" class="accordion-collapse collapse" aria-labelledby="heading13"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    After the mark is filed, an applicant may use the TM symbol and after the mark is registered (R) is
+                    used. It is illegal to use (R) before getting your mark registered.
+                </div>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="heading14">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapse14" aria-expanded="false" aria-controls="collapse14">
+                    <strong>14. What are the sources of Trademark laws?
+                    </strong>
+                </button>
+            </h2>
+            <div id="collapse14" class="accordion-collapse collapse" aria-labelledby="heading14"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    The following are the sources of trademark laws: • Trade Marks Act, 1999 • National bilateral treaty
+                    • Regional treaty • Decision of the courts • International multilateral convention • Office practice
+                    reduced in Manuals and guidelines and rulings of the Courts • Decision of Intellectual Property
+                    Appellate Board • Text books written by academician and professional experts
+                </div>
+            </div>
+        </div>
+
+
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="heading15">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapse15" aria-expanded="false" aria-controls="collapse15">
+                    <strong>15. What is a public search?
+                    </strong>
+                </button>
+            </h2>
+            <div id="collapse15" class="accordion-collapse collapse" aria-labelledby="heading15"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    IP India Public search refers to the method of looking for trademarks that have already been
+                    registered by the registrar of trademarks. This kind of search is very crucial for the brands or
+                    companies who are seeking to register their trademark as it helps them to avoid all trademark
+                    infringements and it’s legal ramifications.
+                </div>
+            </div>
+        </div>
+
+
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="heading16">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapse16" aria-expanded="false" aria-controls="collapse16">
+                    <strong>16. How to search for trademark in India?
+                    </strong>
+                </button>
+            </h2>
+            <div id="collapse16" class="accordion-collapse collapse" aria-labelledby="heading16"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    As a trademark search is important to identify the potential infringements of existing trademarks.
+                    For searching trademark in India, you can also avail of our free trademark search tool for a quick
+                    search for marks in your products or services category.
+                </div>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="heading17">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapse17" aria-expanded="false" aria-controls="collapse17">
+                    <strong>17. How can I know if I violated the trademark in India?
+                    </strong>
+                </button>
+            </h2>
+            <div id="collapse17" class="accordion-collapse collapse" aria-labelledby="heading17"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    It is written under section 29 and section 30 of the Trademarks Act,1999, regarding the conditions
+                    for a violation as well as non- violation of any trademark.
+                </div>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="heading18">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapse18" aria-expanded="false" aria-controls="collapse18">
+                    <strong>18. How can I do a trademark registration number search?
+                    </strong>
+                </button>
+            </h2>
+            <div id="collapse18" class="accordion-collapse collapse" aria-labelledby="heading18"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    You can do a Trademark registration number search by many free tools that are available online. You
+                    can also check the above for our free trademark search tool.
+                </div>
+            </div>
+        </div>
+
+
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="heading19">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapse19" aria-expanded="false" aria-controls="collapse19">
+                    <strong>19. What is the validity of my trademark registration?
+                    </strong>
+                </button>
+            </h2>
+            <div id="collapse19" class="accordion-collapse collapse" aria-labelledby="heading19"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    Every registered trademark with the trademarks registry is valid for a specific period of 10 years.
+                    Afterward, it has to be renewed with a fee.
+                </div>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="heading20">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapse20" aria-expanded="false" aria-controls="collapse20">
+                    <strong>20. How much time does it take for registering a trademark in India?
+                    </strong>
+                </button>
+            </h2>
+            <div id="collapse20" class="accordion-collapse collapse" aria-labelledby="heading20"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    The process is quite comprehensive and involves many proceedings, hearings as well as objections.
+                    Moreover, the process can be taken place anywhere from 20-24 months. On the other hand, a trademark
+                    application number is issued within 7 working days of filing a trademark application.
+                </div>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="heading21">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapse21" aria-expanded="false" aria-controls="collapse21">
+                    <strong>21. What are the things which should be kept in mind before using the trademark electronic
+                        search system database?
+                    </strong>
+                </button>
+            </h2>
+            <div id="collapse21" class="accordion-collapse collapse" aria-labelledby="heading21"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    There are mainly three things that must be kept in mind at the time of the trademark electronic
+                    search system database: 1. What the database includes? 2. How to construct a complete search? 3. How
+                    to interpret the search results?
+                </div>
+            </div>
+        </div>
+
+
+     
+
+
+    </div>
+
+    <!-- FAQ End -->
+
+
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-light mt-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container">
+            <div class="row gx-5">
+                <div class="col-lg-4 col-md-6 footer-about">
+                    <div
+                        class="d-flex flex-column align-items-center justify-content-center text-center h-100 bg-primary p-4">
+                        <a href="index.html" class="navbar-brand">
+                            <h1 class="m-0 text-white"><i class="fa fa-user-tie me-2"></i>LegalRaasta</h1>
+                        </a>
+                        <p class="mt-3 mb-4">LegalRaasta was founded on the principle that sophisticated legal and
+                            taxation services should be simple, modern, and inexpensive. We can serve our clients
+                            more
+                            efficiently thanks to cutting-edge practise technology. </p>
+                        <form action="">
+                            <div class="input-group">
+                                <input type="text" class="form-control border-white p-3" placeholder="Your Email">
+                                <button class="btn btn-dark">Sign Up</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-lg-8 col-md-6">
+                    <div class="row gx-5">
+
+
+
+                        <div class="col-lg-4 col-md-12 pt-0 pt-lg-5 mb-5">
+                            <div class="section-title section-title-sm position-relative pb-3 mb-4">
+                                <h3 class="text-light mb-0">Company Services</h3>
+                            </div>
+                            <div class="link-animated d-flex flex-column justify-content-start">
+                                <a class="text-light mb-2" href="#"><i
+                                        class="bi bi-arrow-right text-primary me-2"></i>Private Limited
+                                    Registration</a>
+                                <a class="text-light mb-2" href="#"><i
+                                        class="bi bi-arrow-right text-primary me-2"></i>Limited Liability
+                                    Partnership
+                                    (LLP)</a>
+                                <a class="text-light mb-2" href="#"><i
+                                        class="bi bi-arrow-right text-primary me-2"></i>One Person Company</a>
+                                <a class="text-light mb-2" href="#"><i
+                                        class="bi bi-arrow-right text-primary me-2"></i>MSME Registration</a>
+                                <a class="text-light mb-2" href="#"><i
+                                        class="bi bi-arrow-right text-primary me-2"></i>ISO Registration</a>
+                            </div>
+                        </div>
+
+
+                        <div class="col-lg-4 col-md-12 pt-0 pt-lg-5 mb-5">
+                            <div class="section-title section-title-sm position-relative pb-3 mb-4">
+                                <h3 class="text-light mb-0">Registration</h3>
+                            </div>
+                            <div class="link-animated d-flex flex-column justify-content-start">
+                                <a class="text-light mb-2" href="#"><i
+                                        class="bi bi-arrow-right text-primary me-2"></i>Drug License</a>
+                                <a class="text-light mb-2" href="#"><i
+                                        class="bi bi-arrow-right text-primary me-2"></i>Import Export Code</a>
+                                <a class="text-light mb-2" href="#"><i
+                                        class="bi bi-arrow-right text-primary me-2"></i>Trademark Registration</a>
+                                <a class="text-light mb-2" href="#"><i
+                                        class="bi bi-arrow-right text-primary me-2"></i>Patent Registration</a>
+                                <a class="text-light mb-2" href="#"><i
+                                        class="bi bi-arrow-right text-primary me-2"></i>ESI Registration</a>
+                            </div>
+                        </div>
+
+
+
+                        <div class="col-lg-4 col-md-12 pt-0 pt-lg-5 mb-5">
+                            <div class="section-title section-title-sm position-relative pb-3 mb-4">
+                                <h3 class="text-light mb-0">TAXATION</h3>
+                            </div>
+                            <div class="link-animated d-flex flex-column justify-content-start">
+                                <a class="text-light mb-2" href="#"><i
+                                        class="bi bi-arrow-right text-primary me-2"></i>Income Tax Return</a>
+                                <a class="text-light mb-2" href="#"><i
+                                        class="bi bi-arrow-right text-primary me-2"></i>TDS Return</a>
+                                <a class="text-light mb-2" href="#"><i
+                                        class="bi bi-arrow-right text-primary me-2"></i>GST Registration</a>
+                                <a class="text-light mb-2" href="#"><i
+                                        class="bi bi-arrow-right text-primary me-2"></i>GST Return</a>
+                                <a class="text-light mb-2" href="#"><i
+                                        class="bi bi-arrow-right text-primary me-2"></i>GST Software</a>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+
+
+
+
+                    <div class="row gx-5">
+                        <div class="col-lg-4 col-md-12 pt-5 mb-5">
+                            <div class="section-title section-title-sm position-relative pb-3 mb-4">
+                                <h3 class="text-light mb-0">Delhi Offices</h3>
+                            </div>
+                            <div class="d-flex mb-2">
+                                <i class="bi bi-geo-alt text-primary me-2"></i>
+                                <p class="mb-0">B-300 Saraswati Vihar,Pitampura, New Delhi-110085</p>
+                            </div>
+                            <div class="d-flex mb-2">
+                                <i class="bi bi-envelope-open text-primary me-2"></i>
+                                <a href="mailto:contact@legalraasta.com">
+                                    <p class="mb-0  text-decoration-none text-light">contact@legalraasta.com</p>
+                                </a>
+                            </div>
+                            <div class="d-flex mb-2">
+                                <i class="bi bi-telephone text-primary me-2"></i>
+                                <p class="mb-0">+918750008585</p>
+                            </div>
+                            <div class="d-flex mt-4">
+                                <a class="btn btn-primary btn-square me-2" href="https://twitter.com/RaastaLegal"><i
+                                        class="fab fa-twitter fw-normal"></i></a>
+                                <a class="btn btn-primary btn-square me-2" href="https://www.facebook.com/LRaasta"><i
+                                        class="fab fa-facebook-f fw-normal"></i></a>
+                                <a class="btn btn-primary btn-square me-2"
+                                    href="https://www.linkedin.com/company/legalraasta/mycompany/"><i
+                                        class="fab fa-linkedin-in fw-normal"></i></a>
+                                <a class="btn btn-danger btn-square" href="https://www.instagram.com/legal.raasta/"><i
+                                        class="fab fa-instagram fw-normal"></i></a>
+                            </div>
+                        </div>
+
+
+                        <!-- <div class="col-lg-4 col-md-12 pt-0 pt-lg-5 mb-5">
+                            <div class="section-title section-title-sm position-relative pb-3 mb-4">
+                                <h3 class="text-light mb-0">Popular Links</h3>
+                            </div>
+                            <div class="link-animated d-flex flex-column justify-content-start">
+                               
+                                <a class="text-light mb-2" href="#"><i
+                                        class="bi bi-arrow-right text-primary me-2"></i>Home</a>
+                                <a class="text-light mb-2" href="#"><i
+                                        class="bi bi-arrow-right text-primary me-2"></i>About Us</a>
+                                <a class="text-light mb-2" href="#"><i
+                                        class="bi bi-arrow-right text-primary me-2"></i>Our Services</a>
+                                <a class="text-light mb-2" href="#"><i
+                                        class="bi bi-arrow-right text-primary me-2"></i>Meet The Team</a>
+                                <a class="text-light mb-2" href="#"><i
+                                        class="bi bi-arrow-right text-primary me-2"></i>Latest Blog</a>
+                                <a class="text-light" href="#"><i
+                                        class="bi bi-arrow-right text-primary me-2"></i>Contact Us</a>
+
+                            </div>
+                        </div> -->
+                        <div class="col-lg-4 col-md-12 pt-5 mb-5">
+                            <div class="section-title section-title-sm position-relative pb-3 mb-4">
+                                <h3 class="text-light mb-0">Location</h3>
+                            </div>
+
+                            <div class="link-animated d-flex flex-column justify-content-start">
+                                <iframe
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3499.6768508825953!2d77.12176301456115!3d
+                                28.699311687807384!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d03c53679bedb%3A0x3624ba574fcc7425!2
+                               sLegal%20Raasta%20Technologies%20Private%20Limited!5e0!3m2!1sen!2sin!4v1676637382453!5m2!1sen!2sin"
+                                    width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                                    referrerpolicy="no-referrer-when-downgrade">
+                                </iframe>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid text-white" style="background: #061429;">
+        <div class="container text-center">
+            <div class="row justify-content-end">
+                <div class="col-lg-8 col-md-6">
+                    <div class="d-flex align-items-center justify-content-center" style="height: 75px;">
+                        <p class="mb-0">&copy; <a class="text-white border-bottom" href="legalraasta">legalraasta</a>.
+                            All
+                            Rights Reserved.
+
+                            <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                            Designed by <a class="text-white border-bottom" href="https://htmlcodex.com">HTML
+                                Codex</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script>
+        window.setTimeout(function () {
+            (function (w, d, u) {
+                var s = d.createElement('script'); s.async = true; s.src = u + '?' + (Date.now() / 60000 | 0);
+                var h = d.getElementsByTagName('script')[0]; h.parentNode.insertBefore(s, h);
+            })(window, document, 'https://cdn.bitrix24.com/b1650591/crm/site_button/loader_71_22ocqk.js');
+        }, 5000);
+    </script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
